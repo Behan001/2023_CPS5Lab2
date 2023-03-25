@@ -40,7 +40,7 @@ void update_display_thread() {
         float sum_t = 0.0;
         num_samples = 0;
         
-        fseek(fp, 0, SEEK_SET); // reset file pointer to beginning
+        fseek(fp, 0, SEEK_SET); 
         
         while (!feof(fp)) {
             float temp = 0.0;
